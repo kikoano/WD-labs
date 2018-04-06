@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI Light';
+}
+#title{
+    display: inline-block;
+    color: #999999;
+    font-size: 170%;
+    margin-top: 25px;
+    float:left;
+    font-family: Arial;
+}
+#menu_holder{
+    height: 80px;
+    background-color: #222222;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#menu{
+    display: inline-block;
+    font-size: 150%;
+    float:right;
+    margin-top: 25px;
+
+}
+#menu a{
+    text-decoration: none;
+    color: #999999;
+    margin: 10px 10px;
+
+}
+#register{
+    background: linear-gradient(to right,rgb(153,218,255),rgb(0,128,128));
+    padding-top:150px;
+    padding-bottom:150px;
+    text-align: center;
+    color:white;
+    height: 500px;
+
+}
+#register h1{
+    font-weight: normal;
+    font-size: 450%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#register img{
+    width: 150px;
+    height: 150px;
+}
+#register p{
+    margin-top: 0px;
+font-size: 180%;
+}
+#menu a:hover{
+color:white;
+}
+
+#about{
+    color: white;
+    background: linear-gradient(to right,rgb(44,62,80),rgb(22,160,133));
+    padding:100px 200px 100px 200px;
+}
+#footer{
+    height: 80px;
+    background-color: #222222;
+    color:#878787;
+    font-size: 150%;
+    font-family: Arial;
+    padding-left: 500px;
+    padding-top: 10px;
+}
+#button {
+    color:white;
+    text-decoration: none;
+    font-size: 130%;
+    background-color: #5C97A0;
+    padding: 10px 30px 10px 30px;
+
+}
+#button_mask{
+   padding:20px 5px 16px 5px;
+    border-radius: 6px;
+    background-color: rgba(34,34,34,0.5);
+    display: inline;
+}
+#button_mask :hover{
+    background-color:rgba(34,34,34,0.5);
+}
+.title2{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 400%;
+    margin-left:350px;
+    margin-right:350px;
+}
+#about img{
+    display: inline-block;
+    width: 720px;
+    height: auto;
+    margin-top:70px;
+
+}
+#text1{
+    width:720px;
+    display: inline-block;
+    color: white;
+    margin-left: 50px;
+}
+#text1 h2{
+    font-size: 250%;
+    margin: 0px;
+    font-weight: normal;
+}
+#text1 p{
+    font-size: 150%;
+}
+hr{
+    margin-top: 60px;
+}
+#topics{
+    color:#555555;
+    padding:100px 200px 100px 200px;
+    background-color: #F5F5F5;
+}
+#topics .title2 hr{
+    background: radial-gradient(#D3D3D3,#fff);
+    border: none;
+    height: 2px;
+}
+#topics p{
+    margin-top:0px;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 100px;
+}
+.item{
+    display: inline-block;
+    margin-right: 50px;
+    width: 445px;
+    height: 200px;
+}
+.item p{
+}
+.item h2{
+    color:#333333;
+    font-weight: normal;
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+.item img{
+    width: 140px;
+    height: auto;
+}
